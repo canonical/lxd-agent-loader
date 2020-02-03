@@ -1,0 +1,5 @@
+lxd-agent-loader (0.1) focal; urgency=medium
+
+  * Initial package for the LXD agent loader.
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Mon, 03 Feb 2020 13:29:42 +0100
