@@ -11,7 +11,7 @@ Package: lxd-agent-loader
 Architecture: all
 Depends: ${misc:Depends}
 Section: misc
-Description: LXD - VM agent loeader
+Description: LXD - VM agent loader
  The LXD VM agent enables access to advanced LXD features such as file
  transfer and command spawning inside virtual machines run by LXD.
  .
