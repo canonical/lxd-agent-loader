@@ -1,3 +1,9 @@
+lxd-agent-loader (0.3) focal; urgency=medium
+
+  * Fix typo in package description (LP: #1868498)
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Sun, 22 Mar 2020 20:45:05 -0400
+
 lxd-agent-loader (0.2) focal; urgency=medium
 
   * debian/copyright: Indicate source of the units (LP: #1868496)
