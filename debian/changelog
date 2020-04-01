@@ -1,3 +1,11 @@
+lxd-agent-loader (0.4) focal; urgency=medium
+
+  * Units: Sync with upstream:
+    - Add retry logic
+    - Tweak unit ordering
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Tue, 31 Mar 2020 22:58:50 -0400
+
 lxd-agent-loader (0.3) focal; urgency=medium
 
   * Fix typo in package description (LP: #1868498)
