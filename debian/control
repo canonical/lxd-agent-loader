@@ -2,9 +2,9 @@ Source: lxd-agent-loader
 Section: admin
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0.1
 Homepage: https://linuxcontainers.org/
-Build-Depends: debhelper-compat (= 12)
+Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 
 Package: lxd-agent-loader
