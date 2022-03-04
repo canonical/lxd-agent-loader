@@ -1,2 +1,0 @@
-# Not testable outside of LXD
-lxd-agent-loader source: testsuite-autopkgtest-missing

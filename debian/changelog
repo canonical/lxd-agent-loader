@@ -1,3 +1,14 @@
+lxd-agent-loader (0.5) jammy; urgency=medium
+
+  * Units: Sync with upstream:
+    - Move to single unit + setpu script
+    - Add udev rules to handle possible race between udev/systemd
+  * Update standards:
+    - Debhelper 13
+    - Standards 4.6.0.1
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Fri, 04 Mar 2022 10:16:58 +0100
+
 lxd-agent-loader (0.4) focal; urgency=medium
 
   * Units: Sync with upstream:
