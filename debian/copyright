@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lxd
 Upstream-Contact: lxc-devel@lists.linuxcontainers.org
-Source: https://linuxcontainers.org/lxd/downloads
+Source: https://github.com/canonical/lxd-agent-loader/
 Comment: The content of this package is synced with
- https://github.com/lxc/lxd/blob/master/lxd/instance/drivers/driver_qemu.go
+ https://github.com/canonical/lxd/blob/main/lxd/instance/drivers/driver_qemu.go
 
 Files: *
 Copyright: 2020 LXD contributors
