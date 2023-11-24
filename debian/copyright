@@ -6,7 +6,7 @@ Comment: The content of this package is synced with
  https://github.com/canonical/lxd/blob/main/lxd/instance/drivers/driver_qemu.go
 
 Files: *
-Copyright: 2020 LXD contributors
+Copyright: 2023 LXD contributors
 License: Apache-2
 
 License: Apache-2
