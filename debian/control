@@ -1,0 +1,19 @@
+Source: lxd-agent-loader
+Section: admin
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 4.6.0.1
+Homepage: https://linuxcontainers.org/
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: lxd-agent-loader
+Architecture: all
+Depends: ${misc:Depends}
+Section: misc
+Description: LXD - VM agent loader
+ The LXD VM agent enables access to advanced LXD features such as file
+ transfer and command spawning inside virtual machines run by LXD.
+ .
+ This package contains init scripts that will automatically load the
+ agent and run it when started in a LXD VM.

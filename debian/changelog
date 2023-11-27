@@ -1,0 +1,38 @@
+lxd-agent-loader (0.5) jammy; urgency=medium
+
+  * Units: Sync with upstream:
+    - Move to single unit + setpu script
+    - Add udev rules to handle possible race between udev/systemd
+  * Update standards:
+    - Debhelper 13
+    - Standards 4.6.0.1
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Fri, 04 Mar 2022 10:16:58 +0100
+
+lxd-agent-loader (0.4) focal; urgency=medium
+
+  * Units: Sync with upstream:
+    - Add retry logic
+    - Tweak unit ordering
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Tue, 31 Mar 2020 22:58:50 -0400
+
+lxd-agent-loader (0.3) focal; urgency=medium
+
+  * Fix typo in package description (LP: #1868498)
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Sun, 22 Mar 2020 20:45:05 -0400
+
+lxd-agent-loader (0.2) focal; urgency=medium
+
+  * debian/copyright: Indicate source of the units (LP: #1868496)
+  * Units: Sync with upstream:
+    - Add trans=virtio to mount command
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Sun, 22 Mar 2020 17:21:06 -0400
+
+lxd-agent-loader (0.1) focal; urgency=medium
+
+  * Initial package for the LXD agent loader.
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Mon, 03 Feb 2020 13:29:42 +0100
