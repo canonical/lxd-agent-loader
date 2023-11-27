@@ -1,4 +1,10 @@
 #!/bin/sh
+#
+# Setup script for lxd-agent that is executed by the lxd-agent systemd unit before lxd-agent is started.
+# The script sets up a temporary mount point, copies data from the mount (including lxd-agent binary),
+# and then unmounts it. It also ensures appropriate permissions for the LXD agent's runtime directory.
+#
+
 set -eu
 PREFIX="/run/lxd_agent"
 
