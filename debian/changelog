@@ -1,3 +1,14 @@
+lxd-agent-loader (0.6) noble; urgency=medium
+
+  * Unit: Update lxd-agent systemd unit for new virtio-serial
+    device name (LP: #2044859)
+  * Unit: Small tweaks to lxd-agent systemd unit:
+    - Use readonly mounts for config drive
+    - Mount /run/lxd-agent tmpfs as nodev and nosuid
+    - Simplify config file copy to tmpfs
+
+ -- Simon Deziel <simon.deziel@canonical.com>  Mon, 27 Nov 2023 17:01:06 -0500
+
 lxd-agent-loader (0.5) jammy; urgency=medium
 
   * Units: Sync with upstream:
